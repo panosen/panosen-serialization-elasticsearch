@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net472;netstandard2.0</TargetFrameworks>
+        <AssemblyName>Panosen.Serialization.ElasticSearch</AssemblyName>
+        <RootNamespace>Panosen.Serialization.ElasticSearch</RootNamespace>
+        <Version>0.1.0</Version>
+        <Authors>harriszhang@live.cn</Authors>
+        <Company>harriszhang@live.cn</Company>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <DocumentationFile>bin\$(Configuration)\Panosen.Serialization.ElasticSearch.xml</DocumentationFile>
+        <PackageIcon>panosen.png</PackageIcon>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/panosen/panosen-serialization-elasticsearch</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\panosen.png" Pack="true" PackagePath="" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    </ItemGroup>
+
+</Project>
